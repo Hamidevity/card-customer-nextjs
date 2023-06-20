@@ -5,7 +5,7 @@ import HomePage from "../components/template/HomePage";
 function Index({ customers }) {
   return
   <>
-    <h3>connect to DB<h3/> //delete this line (its just for more info if see 404 err in first rout of page)
+   
     <HomePage customers={customers} />;
     </>
 }
